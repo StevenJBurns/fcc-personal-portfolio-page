@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0
 }
+
+#welcome-section {
+  min-height: 100vh
+}
+
+@media screen and (mex-width: 360px) {
+  background-color: azure
+}
