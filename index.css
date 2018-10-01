@@ -3,10 +3,17 @@
   padding: 0
 }
 
+#navbar {
+  top: 0;
+  position: fixed;
+}
+
 #welcome-section {
   min-height: 100vh
 }
 
-@media screen and (mex-width: 360px) {
-  background-color: azure
+@media screen and (max-width: 360px) {
+  main {
+    background-color: azure
+  }
 }
