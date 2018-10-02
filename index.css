@@ -103,6 +103,7 @@ section {
 
 #about {
   height: 90vh;
+  padding: 64px 0;
   background: linear-gradient(to bottom, #445566 25%, #171717)
 }
 
@@ -111,7 +112,7 @@ section {
   width: 90%;
   max-width: 720px;
   text-align: justify;
-  margin: 0 auto;
+  margin: 0 auto 24px auto;
 }
 
 #about a:link,
