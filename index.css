@@ -10,15 +10,14 @@ html {
 
 #navbar {
   top: 0;
+  width: 100vw;
   position: fixed;
-}
-
-#navbar {
 }
 
 #navbar ul {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   background-color: #737373;
   list-style: none;
   padding: 8px
@@ -95,17 +94,28 @@ section {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
   color: #DFDFDF;
-  background: #171717
+  background: darkgreen
 }
 
 footer ul {
   display: flex;
   flex-direction: row;
+  list-style: none;
 }
 
 footer ul li {
+  display: flex;
+  margin: 8px
+}
 
+footer ul li a {
+  flex: 1 0 auto
 }
 
 a:link,
