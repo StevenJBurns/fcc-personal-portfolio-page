@@ -134,4 +134,9 @@ a:active {
   main {
     background-color: azure
   }
+
+  #navbar li {
+    font-size: 10px;
+    width: 96px;
+  }
 }
