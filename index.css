@@ -61,7 +61,24 @@ section {
 }
 
 #skills {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(to bottom, #809070 25%, #b7850b)
+}
+
+#skills ul {
+  margin: 0 16px;
+  padding: 16px;
+  min-height: 144px;
+  min-width: 192px;
+  background-color: #DFDFDF;
+  border: 2px #777777 solid;
+  border-radius: 8px;
+  list-style: none;
+  opacity: 0.5;
 }
 
 #projects {
