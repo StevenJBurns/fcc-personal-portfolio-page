@@ -8,10 +8,23 @@ html {
   font-family: Futura, Roboto, Nunito, sans-serif
 }
 
+a:link,
+a:visited {
+  color: #373737;
+  text-decoration: none;
+  transition: color 0.5s
+}
+
+a:hover,
+a:active {
+  color: #777777
+}
+
 #navbar {
   top: 0;
   width: 100vw;
   position: fixed;
+  z-index: 1;
 }
 
 #navbar ul {
@@ -93,6 +106,26 @@ section {
   background: linear-gradient(to bottom, #445566 25%, #171717)
 }
 
+#about p {
+  color: #DFDFDF;
+  width: 90%;
+  max-width: 720px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+#about a:link,
+#about a:visited {
+  color: #DFDFDF;
+  text-decoration: underline;
+  transition: color 0.5s
+}
+
+#about a:hover,
+#about a:active {
+  color: #BFBFBF
+}
+
 footer {
   display: flex;
   align-items: center;
@@ -118,18 +151,6 @@ footer ul li a {
   flex: 1 0 auto
 }
 
-a:link,
-a:visited {
-  color: #373737;
-  text-decoration: none;
-  transition: color 0.5s
-}
-
-a:hover,
-a:active {
-  color: #777777
-}
-
 @media screen and (max-width: 360px) {
   main {
     background-color: azure
@@ -138,5 +159,13 @@ a:active {
   #navbar li {
     font-size: 10px;
     width: 96px;
+  }
+
+  #skills ul {
+    margin: 0 8px;
+    padding: 8px;
+    min-height: 96px;
+    min-width: 144px;
+    font-size: 12px;
   }
 }
