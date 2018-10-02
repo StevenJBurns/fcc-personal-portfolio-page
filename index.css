@@ -44,7 +44,20 @@ section {
 }
 
 #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(to bottom, #778899 25%, #809070)
+}
+
+#welcome-section img {
+  margin: 16px;
+  height: auto;
+  max-width: 240px;
+  border: 2px navy solid;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 #skills {
