@@ -74,20 +74,38 @@ section {
 }
 
 #skills {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
   padding-top: 64px;
   background: linear-gradient(to bottom, #809070 25%, #b7850b)
 }
 
+#skills h2 {
+  margin: 8px auto;
+  text-align: center
+}
+#skills h3 {
+  margin: 8px auto;
+  text-align: center
+}
+
+#skills h4 {
+  margin: 0 auto;
+  text-align: center
+}
+
+#skills div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
 #skills ul {
-  margin: 0 16px;
-  padding: 16px;
-  min-height: 144px;
-  min-width: 192px;
+  margin: 8px;
+  padding: 4px 16px;
+  min-height: 160px;
+  width: 240px;
   background-color: #DFDFDF;
   border: 2px #777777 solid;
   border-radius: 12px;
