@@ -200,6 +200,10 @@ section {
 }
 
 #contact article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 8px;
   margin: 12px;
   height: 144px;
@@ -208,6 +212,11 @@ section {
   border: 1px #555555 solid;
   box-shadow: 0 0 16px #777777;
   background-color: #DFDFDF
+}
+
+#contact a {
+  margin: 0 auto;
+  display: inline-block
 }
 
 #about {
