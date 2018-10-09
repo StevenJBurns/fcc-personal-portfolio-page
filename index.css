@@ -109,11 +109,10 @@ section {
   padding: 4px 16px;
   min-height: 192px;
   width: 240px;
-  background-color: #DFDFDF;
+  background-color: #DFDFDF77;
   border: 2px #777777 solid;
   border-radius: 12px;
   list-style: none;
-  opacity: 0.5;
 }
 
 #projects {
