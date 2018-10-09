@@ -194,6 +194,7 @@ section {
 #contact div {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
@@ -205,7 +206,7 @@ section {
   justify-content: center;
   align-items: center;
   padding: 8px;
-  margin: 12px;
+  margin: 8px;
   height: 144px;
   width: 144px;
   border-radius: 50%;
@@ -301,6 +302,10 @@ footer a:active {
     min-height: 96px;
     min-width: 144px;
     font-size: 12px
+  }
+
+  #projects {
+    padding-top: 96px
   }
 }
 
