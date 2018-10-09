@@ -164,7 +164,7 @@ section {
   border-radius: 4px;
   border: 1px #555555 solid;
   box-shadow: 0 0 16px #777777;
-  background-color: #DFDFDF
+  background-color: #DFDFDF55
 }
 
 .project-tile img {
@@ -211,7 +211,7 @@ section {
   border-radius: 50%;
   border: 1px #555555 solid;
   box-shadow: 0 0 16px #777777;
-  background-color: #DFDFDF
+  background-color: #DFDFDF77
 }
 
 #contact a {
@@ -285,14 +285,14 @@ footer a:active {
   color: #DDDDDD
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   main {
     background-color: azure
   }
 
-  #navbar li {
+  #navbar ul li {
     width: 96px;
-    font-size: 10px
+    font-size: 12px;
   }
 
   #skills ul {
