@@ -132,6 +132,18 @@ section {
   flex-direction: row
 }
 
+#projects-wrapper div {
+  display: flex;
+  flex-direction: row;
+  margin: 8px 0
+}
+
+#projects-wrapper div a {
+  width: auto;
+  margin: auto;
+  text-align: center
+}
+
 #projects h2 {
   margin: 8px auto;
   text-align: center
@@ -147,12 +159,17 @@ section {
   flex-direction: column;
   padding: 8px;
   margin: 12px auto;
-  height: 240px;
+  height: 256px;
   max-width: 256px;
   border-radius: 4px;
   border: 1px #555555 solid;
   box-shadow: 0 0 16px #777777;
-  background-color: #DFDFDF;
+  background-color: #DFDFDF
+}
+
+.project-tile img {
+  border-radius: 4px;
+  border: 2px #999999 solid
 }
 
 .project-screenshot {
@@ -190,7 +207,7 @@ section {
   border-radius: 4px;
   border: 1px #555555 solid;
   box-shadow: 0 0 16px #777777;
-  background-color: #DFDFDF;
+  background-color: #DFDFDF
 }
 
 #about {
@@ -211,7 +228,7 @@ section {
   width: 90%;
   max-width: 720px;
   text-align: justify;
-  margin: 0 auto 24px auto;
+  margin: 0 auto 24px auto
 }
 
 #about a:link,
@@ -239,7 +256,7 @@ footer {
 footer ul {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  list-style: none
 }
 
 footer ul li {
@@ -265,8 +282,8 @@ footer a:active {
   }
 
   #navbar li {
-    font-size: 10px;
     width: 96px;
+    font-size: 10px
   }
 
   #skills ul {
@@ -274,7 +291,7 @@ footer a:active {
     padding: 8px;
     min-height: 96px;
     min-width: 144px;
-    font-size: 12px;
+    font-size: 12px
   }
 }
 
