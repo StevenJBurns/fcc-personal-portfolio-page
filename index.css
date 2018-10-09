@@ -81,10 +81,17 @@ section {
   background: linear-gradient(to bottom, #809070 25%, #b7850b)
 }
 
+#skills hr {
+  margin: 8px auto;
+  width: 90%;
+  min-width: 240px
+}
+
 #skills h2 {
   margin: 8px auto;
   text-align: center
 }
+
 #skills h3 {
   margin: 8px auto;
   text-align: center
